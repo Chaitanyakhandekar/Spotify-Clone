@@ -1,0 +1,65 @@
+.bi-music-note-list{
+    font-size:30px
+}
+.spotify-pl{
+    padding:20px;
+    font-size:2em
+}
+.thumbnail{
+    width:200px;
+    height:200px;
+    object-fit:cover
+}
+
+.card-footer *{
+  padding:0 12px
+}
+.card-footer p{
+    font-size:15px
+}
+
+.card-footer h2{
+    font-size: 20px;
+}
+.bi-play-fill{
+    color:black;
+    font-size:20px;
+}
+
+.prev-next-song{
+    display: flex;
+    align-items:center;
+}
+.play-icons{
+    /* border:1px solid red; */
+    display: flex;
+    gap:5px;
+    position: absolute;
+    top:6px
+
+}
+.invert{
+    filter:invert(1);
+    font-size:17px
+}
+.bi-music-note-beamed{
+    font-size:25px
+}
+.bi-play-circle{
+    font-size:25px
+}
+.bi-pause-circle{
+    font-size:25px
+}
+.bi-dot{
+    position: absolute;
+    font-size:57px;
+    top:-40px;
+    left:-24px;
+    transition:left 0.2s linear;    /** for making seeckbar smooth*/
+}
+
+.play{
+    height:40px;
+    width:40px
+}
